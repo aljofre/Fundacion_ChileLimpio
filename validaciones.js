@@ -88,10 +88,10 @@ function validarCelular() {
 function generarCarta() {
   // Obtener los datos ingresados en el formulario
   const rut = document.getElementById("rut").value;
-  const apPaterno = document.getElementById("apPaterno").value;
-  const apMaterno = document.getElementById("apMaterno").value;
+  const apPaterno = document.getElementById("apellido-paterno").value;
+  const apMaterno = document.getElementById("apellido-materno").value;
   const nombre = document.getElementById("nombre").value;
-  const fechaNacimiento = document.getElementById("fechaNacimiento").value;
+  const fechaNacimiento = document.getElementById("fecha-nacimiento").value;
   const edad = document.getElementById("edad").value;
   const genero = document.getElementById("genero").value;
   const email = document.getElementById("email").value;
